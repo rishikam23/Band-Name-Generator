@@ -1,20 +1,20 @@
-# 🎸 Band Name Generator
+# Band Name Generator
 
-A simple and fun web application that generates random band names using **Node.js**, **Express**, and **EJS templating**.
-
----
-
-## 🚀 Features
-
-- 🎲 Generates random band names using adjectives and nouns  
-- ⚡ Built with Express for fast server-side rendering  
-- 🧩 Uses EJS for dynamic templating  
-- 🎨 Clean and minimal UI with custom CSS  
-- 📅 Dynamic footer with current year  
+A simple and fun web application that generates random band names using **Node.js**, **Express** and **EJS templating**.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
+
+- Generates random band names using adjectives and nouns  
+- Built with Express for fast server-side rendering  
+- Uses EJS for dynamic templating  
+- Clean and minimal UI with custom CSS  
+- Dynamic footer with current year  
+
+---
+
+## Tech Stack
 
 - **Backend:** Node.js, Express  
 - **Templating Engine:** EJS  
@@ -23,7 +23,7 @@ A simple and fun web application that generates random band names using **Node.j
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Band Generator project
@@ -46,21 +46,21 @@ Band Generator project
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/band-name-generator.git
+git clone https://github.com/rishikam23/Band-Name-Generator.git
 ```
 
 2. Navigate to the project folder:
 ```bash
-cd band-name-generator
+cd Band-Name-Generator
 ```
 
 3. Install dependencies:
 ```bash
-npm install
+npm i
 ```
 
 4. Start the server:
@@ -75,7 +75,7 @@ http://localhost:3000
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - The user clicks the **"Generate Name"** button  
 - A POST request is sent to `/submit`  
@@ -87,17 +87,16 @@ http://localhost:3000
 
 ---
 
-## 🎨 UI Overview
+## UI Overview
 
 - Default screen shows:  
   **"Welcome to the Band Generator 🤟"**
 
-- After clicking the button, it displays a generated band name like:  
-  **"Electric Tigers"**
+- After clicking the button, it displays a randomly generated band name.
 
 ---
 
-## 📌 Key Highlights
+## Key Highlights
 
 - Uses **EJS partials** (`header.ejs`, `footer.ejs`) for reusable layout  
 - Dynamic year rendering in footer:
@@ -111,15 +110,5 @@ http://localhost:3000
 
 ---
 
-## 🔮 Future Improvements
-
-- Add user input for custom words  
-- Save generated names history  
-- Add animations or sound effects 🎵  
-- Deploy the app online  
-
----
-
-## 👩‍💻 Author
-
+## Author
 **Rishika Mathur**
