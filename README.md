@@ -1,6 +1,5 @@
 # Band Name Generator
-0De
-[[![Live Demo](https://img.shields.io/badge/%20Live%2mo-Click%20Here-blue)]](https://band-name-generator-6rn5.onrender.com/)
+[Live Demo](https://band-name-generator-6rn5.onrender.com/)
 
 A simple and fun web application that generates random band names using **Node.js**, **Express** and **EJS templating**.
 
